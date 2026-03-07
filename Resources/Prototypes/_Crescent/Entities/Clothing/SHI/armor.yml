@@ -103,6 +103,26 @@
       - ClothingOuterHardsuitHEV
 
 - type: entity
+  parent: ClothingOuterHardsuitHighsec
+  id: ClothingOuterHardsuitHighsecExport
+  name: SHI SVBT-2E combat hardsuit
+  description: A modular combat hardsuit developed by Shinohara Heavy Industries. Sold to elite mercs and corporate deathsquads everywhere. This one is the dedicated export version.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/SHI/OuterClothing/corpsec_export.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/SHI/OuterClothing/corpsec_export.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitCorpsecExport
+  - type: ReverseEngineering # SectorCrescent
+    difficulty: 3
+    recipes:
+      - ClothingOuterHardsuitHighsecUA
+      - ClothingOuterHardsuitHighsec
+      - ClothingOuterHardsuitHighsecIndependent
+      - ClothingOuterHardsuitHEV
+
+- type: entity
   parent: [ClothingOuterHardsuitBase, StreeCredRedeemable]
   id: ClothingOuterHardsuitSHIJuggernaut
   name: SVBT-XA "KAMADO" juggernaut hardsuit
