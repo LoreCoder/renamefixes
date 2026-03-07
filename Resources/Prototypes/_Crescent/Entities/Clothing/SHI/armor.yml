@@ -109,9 +109,9 @@
   description: A modular combat hardsuit developed by Shinohara Heavy Industries. Sold to elite mercs and corporate deathsquads everywhere. This one is the dedicated export version.
   components:
   - type: Sprite
-    sprite: _Crescent/Clothing/SHI/OuterClothing/corpsec_export.rsi
+    sprite: _Crescent/Clothing/SHI/OuterClothing/corpsec_independent.rsi
   - type: Clothing
-    sprite: _Crescent/Clothing/SHI/OuterClothing/corpsec_export.rsi
+    sprite: _Crescent/Clothing/SHI/OuterClothing/corpsec_independent.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCorpsecExport
   - type: ReverseEngineering # SectorCrescent
